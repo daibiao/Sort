@@ -8,6 +8,7 @@ import org.junit.Test;
 
 import com.neusoft.swap.BubbleSort;
 import com.neusoft.swap.QuickSort;
+import com.neusoft.swap.SelectSort;
 
 public class SortTest {
 	private int[] array;
@@ -28,6 +29,12 @@ public class SortTest {
 	public void testQuickSort() {
 		System.out.println(Arrays.toString(array));
 		QuickSort.sort(array, 0, array.length-1);
+		System.out.println(Arrays.toString(array));
+	}
+	@Test
+	public void testSelectSort() {
+		System.out.println(Arrays.toString(array));
+		SelectSort.sort(array);
 		System.out.println(Arrays.toString(array));
 	}
 }
