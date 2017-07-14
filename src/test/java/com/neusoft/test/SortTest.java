@@ -7,6 +7,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import com.neusoft.swap.BubbleSort;
+import com.neusoft.swap.HeapSort;
 import com.neusoft.swap.QuickSort;
 import com.neusoft.swap.SelectSort;
 
@@ -35,6 +36,12 @@ public class SortTest {
 	public void testSelectSort() {
 		System.out.println(Arrays.toString(array));
 		SelectSort.sort(array);
+		System.out.println(Arrays.toString(array));
+	}
+	@Test
+	public void testHeapSort() {
+		System.out.println(Arrays.toString(array));
+		HeapSort.sort(array, array.length);
 		System.out.println(Arrays.toString(array));
 	}
 }
