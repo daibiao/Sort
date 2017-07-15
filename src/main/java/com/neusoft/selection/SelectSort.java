@@ -1,4 +1,4 @@
-package com.neusoft.swap;
+package com.neusoft.selection;
 
 /**
  * 选择排序中的选择排序：

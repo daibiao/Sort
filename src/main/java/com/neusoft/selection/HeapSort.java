@@ -1,4 +1,4 @@
-package com.neusoft.swap;
+package com.neusoft.selection;
 /**
  * 选择排序中的堆排序：
  * 主要分两个步骤：构造堆结构和堆排序输出。
