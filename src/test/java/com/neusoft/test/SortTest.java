@@ -7,6 +7,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import com.neusoft.insertion.InsertSort;
+import com.neusoft.insertion.ShellSort;
 import com.neusoft.selection.HeapSort;
 import com.neusoft.selection.SelectSort;
 import com.neusoft.swap.BubbleSort;
@@ -55,6 +56,12 @@ public class SortTest {
 	public void testInsertSort() {
 		System.out.println(Arrays.toString(array));
 		InsertSort.sort(array);
+		System.out.println(Arrays.toString(array));
+	}
+	@Test
+	public void testShellSort() {
+		System.out.println(Arrays.toString(array));
+		ShellSort.sort(array);
 		System.out.println(Arrays.toString(array));
 	}
 }
